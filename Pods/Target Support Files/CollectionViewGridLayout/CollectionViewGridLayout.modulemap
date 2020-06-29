@@ -1,0 +1,6 @@
+framework module CollectionViewGridLayout {
+  umbrella header "CollectionViewGridLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
