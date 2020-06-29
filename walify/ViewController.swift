@@ -17,6 +17,7 @@ class ViewController: UIViewController ,UICollectionViewDelegate , UICollectionV
        let kReadyCategoryCollectionViewCellSpanCompact = 20.0
     
     @IBOutlet weak var catgoryList: UICollectionView!
+    @IBOutlet weak var navBar: UINavigationItem!
     let imageArray :[UIImage] = [#imageLiteral(resourceName: "sunset") , #imageLiteral(resourceName: "forest") , #imageLiteral(resourceName: "lake")  , #imageLiteral(resourceName: "car") , #imageLiteral(resourceName: "landscape")]
     let catgoray = [ "Sunset" , "Forest" , "Lake" , "Car" , "Landscape"]
     override func viewDidLoad() {
@@ -24,7 +25,7 @@ class ViewController: UIViewController ,UICollectionViewDelegate , UICollectionV
         // Do any additional setup after loading the view.
         
  
-        
+        self.navBar.title = "Walify"
         catgoryList.dataSource = self
         catgoryList.delegate = self
 

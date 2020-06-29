@@ -102,6 +102,7 @@
                     <navigationItem key="navigationItem" id="BRB-u5-BM9"/>
                     <connections>
                         <outlet property="catgoryList" destination="1UV-RF-gZo" id="tm1-Yc-lII"/>
+                        <outlet property="navBar" destination="BRB-u5-BM9" id="gFF-fR-1eL"/>
                         <segue destination="6zf-Bn-hNJ" kind="show" id="kiU-Zd-HGv"/>
                     </connections>
                 </viewController>
