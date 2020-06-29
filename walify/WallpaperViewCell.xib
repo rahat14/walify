@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WallpaperViewCell" id="gTV-IL-0wX" customClass="WallpaperViewCell" customModule="walify" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T39-Tz-8IG">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="220"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="IUP-J8-8N2">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="220" id="Loo-Gf-PfE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="T39-Tz-8IG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="85n-sc-Na7"/>
+                <constraint firstAttribute="bottom" secondItem="T39-Tz-8IG" secondAttribute="bottom" id="EaA-72-DIx"/>
+                <constraint firstItem="T39-Tz-8IG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iqa-Z9-hLk"/>
+                <constraint firstAttribute="trailing" secondItem="T39-Tz-8IG" secondAttribute="trailing" id="jiE-Uo-HXM"/>
+                <constraint firstItem="T39-Tz-8IG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mWJ-2r-kwH"/>
+                <constraint firstAttribute="bottom" secondItem="T39-Tz-8IG" secondAttribute="bottom" id="o3N-YW-Iha"/>
+                <constraint firstAttribute="trailing" secondItem="T39-Tz-8IG" secondAttribute="trailing" id="qGc-mU-5hw"/>
+                <constraint firstItem="T39-Tz-8IG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zUW-Oe-CZh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="173" height="178"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="15"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="image" destination="T39-Tz-8IG" id="Z9w-t7-oD2"/>
+            </connections>
+            <point key="canvasLocation" x="221.01449275362322" y="174.10714285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

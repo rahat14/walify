@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C178D8D2452F320006E63EC /* responseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C178D8C2452F320006E63EC /* responseModels.swift */; };
+		3C178D8F2452F3A2006E63EC /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C178D8E2452F3A2006E63EC /* ImageResponse.swift */; };
+		3C178D9124530199006E63EC /* ImageRe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C178D9024530199006E63EC /* ImageRe.swift */; };
+		3C178D9324531A61006E63EC /* WallpaperPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C178D9224531A61006E63EC /* WallpaperPageViewController.swift */; };
+		3C27D5952451D22F00B7660E /* WallPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C27D5942451D22F00B7660E /* WallPaperViewController.swift */; };
+		3C27D5982451E71E00B7660E /* WallpaperViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C27D5962451E71E00B7660E /* WallpaperViewCell.swift */; };
+		3C27D5992451E71E00B7660E /* WallpaperViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C27D5972451E71E00B7660E /* WallpaperViewCell.xib */; };
 		3CC874EB24507B1200C8778B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC874EA24507B1200C8778B /* AppDelegate.swift */; };
 		3CC874ED24507B1200C8778B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC874EC24507B1200C8778B /* SceneDelegate.swift */; };
 		3CC874EF24507B1200C8778B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC874EE24507B1200C8778B /* ViewController.swift */; };
 		3CC874F224507B1200C8778B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC874F024507B1200C8778B /* Main.storyboard */; };
 		3CC874F424507B1400C8778B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC874F324507B1400C8778B /* Assets.xcassets */; };
 		3CC874F724507B1400C8778B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC874F524507B1400C8778B /* LaunchScreen.storyboard */; };
+		3CC874FF24507E4F00C8778B /* CatgoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC874FE24507E4F00C8778B /* CatgoryCollectionViewCell.swift */; };
+		6C22140D58B2C15180C87547 /* Pods_walify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3645852E64310C8FD533A6 /* Pods_walify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092AA9E1DC4E577B437FBC53 /* Pods-walify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walify.release.xcconfig"; path = "Target Support Files/Pods-walify/Pods-walify.release.xcconfig"; sourceTree = "<group>"; };
+		3C178D8C2452F320006E63EC /* responseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responseModels.swift; sourceTree = "<group>"; };
+		3C178D8E2452F3A2006E63EC /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
+		3C178D9024530199006E63EC /* ImageRe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRe.swift; sourceTree = "<group>"; };
+		3C178D9224531A61006E63EC /* WallpaperPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperPageViewController.swift; sourceTree = "<group>"; };
+		3C27D5942451D22F00B7660E /* WallPaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPaperViewController.swift; sourceTree = "<group>"; };
+		3C27D5962451E71E00B7660E /* WallpaperViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewCell.swift; sourceTree = "<group>"; };
+		3C27D5972451E71E00B7660E /* WallpaperViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperViewCell.xib; sourceTree = "<group>"; };
 		3CC874E724507B1200C8778B /* walify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC874EA24507B1200C8778B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC874EC24507B1200C8778B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,9 @@
 		3CC874F324507B1400C8778B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC874F624507B1400C8778B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC874F824507B1400C8778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC874FE24507E4F00C8778B /* CatgoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatgoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		6008C2B675519AE612E6D1BE /* Pods-walify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walify.debug.xcconfig"; path = "Target Support Files/Pods-walify/Pods-walify.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3645852E64310C8FD533A6 /* Pods_walify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C22140D58B2C15180C87547 /* Pods_walify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C178D8B2452F2CC006E63EC /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3C178D8C2452F320006E63EC /* responseModels.swift */,
+				3C178D8E2452F3A2006E63EC /* ImageResponse.swift */,
+				3C178D9024530199006E63EC /* ImageRe.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		3CC874DE24507B1200C8778B = {
 			isa = PBXGroup;
 			children = (
 				3CC874E924507B1200C8778B /* walify */,
 				3CC874E824507B1200C8778B /* Products */,
+				FECC85FB6C7B870C5E2DE64F /* Pods */,
+				9EED1CAAEC972B470DB99246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +89,7 @@
 		3CC874E924507B1200C8778B /* walify */ = {
 			isa = PBXGroup;
 			children = (
+				3C178D8B2452F2CC006E63EC /* models */,
 				3CC874EA24507B1200C8778B /* AppDelegate.swift */,
 				3CC874EC24507B1200C8778B /* SceneDelegate.swift */,
 				3CC874EE24507B1200C8778B /* ViewController.swift */,
@@ -63,8 +97,30 @@
 				3CC874F324507B1400C8778B /* Assets.xcassets */,
 				3CC874F524507B1400C8778B /* LaunchScreen.storyboard */,
 				3CC874F824507B1400C8778B /* Info.plist */,
+				3CC874FE24507E4F00C8778B /* CatgoryCollectionViewCell.swift */,
+				3C27D5942451D22F00B7660E /* WallPaperViewController.swift */,
+				3C27D5962451E71E00B7660E /* WallpaperViewCell.swift */,
+				3C27D5972451E71E00B7660E /* WallpaperViewCell.xib */,
+				3C178D9224531A61006E63EC /* WallpaperPageViewController.swift */,
 			);
 			path = walify;
+			sourceTree = "<group>";
+		};
+		9EED1CAAEC972B470DB99246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3645852E64310C8FD533A6 /* Pods_walify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FECC85FB6C7B870C5E2DE64F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6008C2B675519AE612E6D1BE /* Pods-walify.debug.xcconfig */,
+				092AA9E1DC4E577B437FBC53 /* Pods-walify.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC874FB24507B1400C8778B /* Build configuration list for PBXNativeTarget "walify" */;
 			buildPhases = (
+				30A568A88EFEE18CC25D153C /* [CP] Check Pods Manifest.lock */,
 				3CC874E324507B1200C8778B /* Sources */,
 				3CC874E424507B1200C8778B /* Frameworks */,
 				3CC874E524507B1200C8778B /* Resources */,
+				7D0524B00B124D70ABD95C0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC874F724507B1400C8778B /* LaunchScreen.storyboard in Resources */,
+				3C27D5992451E71E00B7660E /* WallpaperViewCell.xib in Resources */,
 				3CC874F424507B1400C8778B /* Assets.xcassets in Resources */,
 				3CC874F224507B1200C8778B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +192,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30A568A88EFEE18CC25D153C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0524B00B124D70ABD95C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walify/Pods-walify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walify/Pods-walify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-walify/Pods-walify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CC874E324507B1200C8778B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C178D8F2452F3A2006E63EC /* ImageResponse.swift in Sources */,
 				3CC874EF24507B1200C8778B /* ViewController.swift in Sources */,
 				3CC874EB24507B1200C8778B /* AppDelegate.swift in Sources */,
+				3C178D8D2452F320006E63EC /* responseModels.swift in Sources */,
+				3C178D9124530199006E63EC /* ImageRe.swift in Sources */,
+				3CC874FF24507E4F00C8778B /* CatgoryCollectionViewCell.swift in Sources */,
+				3C27D5982451E71E00B7660E /* WallpaperViewCell.swift in Sources */,
 				3CC874ED24507B1200C8778B /* SceneDelegate.swift in Sources */,
+				3C178D9324531A61006E63EC /* WallpaperPageViewController.swift in Sources */,
+				3C27D5952451D22F00B7660E /* WallPaperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		3CC874FC24507B1400C8778B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6008C2B675519AE612E6D1BE /* Pods-walify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +408,7 @@
 		};
 		3CC874FD24507B1400C8778B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092AA9E1DC4E577B437FBC53 /* Pods-walify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
